@@ -117,7 +117,7 @@ protected void onCreate(Bundle savedInstanceState) {
 @Override
 protected void onDestroy() {
     // ...
-    Shizuku.removeRequestPermissionResultListener(REQUEST_PERMISSION_RESULT_LISTENE;
+    Shizuku.removeRequestPermissionResultListener(REQUEST_PERMISSION_RESULT_LISTENER);
     // ...
 }
 
